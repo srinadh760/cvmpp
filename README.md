@@ -5,13 +5,6 @@
 
 ---
 
-## Team Members
-
-- Venu K
-- NSDNV Manjunadh
-- P Srinadh
-
----
 
 # Project Overview
 
@@ -452,3 +445,11 @@ The project integrates concepts from:
 - and computer architecture
 
 into a clean and modular execution system.
+
+---
+## Team Members
+
+- Venu K
+- NSDNV Manjunadh
+- P Srinadh
+
