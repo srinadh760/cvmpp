@@ -1,13 +1,13 @@
 #pragma once
 #include "token.hpp"
-#include <cctype>
+#include <cctype>// just to check weather a charecter is a alphabet or int or bool etc..
 #include <string>
 #include <utility>
 #include <vector>
 
 class Lexer{
 public:
-    explicit Lexer(std::string src):source(std::move(src)){}
+    explicit Lexer(std::string src):source(std::move(src)){}// generally when the class has a single data in it the c++ allows someone to simply pass that data type variable as a class to stop hat we use explicit here
     std::vector<Token> scanTokens();
 
 private:
