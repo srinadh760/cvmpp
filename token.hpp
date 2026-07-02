@@ -1,7 +1,7 @@
-#pragma once
-#include <cstdint>
+#pragma once    // when a file is included all the definations are copied to this file but as once is used eve if multiple files have same conetent they will be taken only once which stops one defination rule violation
+#include <cstdint> // lets us dictate how much space will be taken by a data type as those can some time be different for systems
 #include <string>
-#include <variant>
+#include <variant>// lets us store data dynamically like python and javascript in the c++
 
 using Literal=std::variant<std::monostate,int64_t,bool,std::string>;
 
