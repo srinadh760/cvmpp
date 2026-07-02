@@ -7,7 +7,7 @@
 #include <vector>
 
 struct Expr{
-    virtual ~Expr()=default;
+    virtual ~Expr()=default;// with using this virtual distructor we will 1st call the distructor of the child then we call the ditructor of the parent
 };
 
 struct LiteralExpr:Expr{

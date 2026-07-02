@@ -32,6 +32,7 @@ Program Output
 
 The implementation focuses on compiler construction, bytecode execution, and virtual machine design.
 
+So, in short, this project tries to show how languages like Python become dynamic, with their core being a C++ engine.
 ---
 
 # Features
